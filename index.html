@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Sunnyside</title>
   </head>
   <body>
@@ -14,83 +15,129 @@
           <li><a href="/">Services</a></li>
           <li><a href="/">Projects</a></li>
         </ul>
-
         <a class="header-btn" href="/">Contact</a>
       </nav>
-      <h1>We are creatives</h1>
+      <div>
+        <h1>We are creatives</h1>
+      </div>
     </header>
 
-    <section>
-      <h2>Transform your brand</h2>
+    <main>
+      <section class="transform-section">
+        <div>
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="section-btn" href="/"> Learn more</a>
+        </div>
+      </section>
 
-      <p>
-        We are a full-service creative agency specializing in helping brands
-        grow fast. Engage your clients through compelling visuals that do most
-        of the marketing for you.
-      </p>
+      <section class="stand-out-section">
+        <h2>Stand out to the right audience</h2>
 
-      <a class="section-btn" href="/"> Learn more</a>
-    </section>
-
-    <section>
-      <h2>Stand out to the right audience</h2>
-
-      <p>
-        Using a collaborative formula of designers, researchers, photographers,
-        videographers, and copywriters, we’ll build and extend your brand in
-        digital places.
-      </p>
-      <a class="section-btn" href="/"> Learn more</a>
-    </section>
-
-    <section>
-      <div>
-        <h2>Graphic design</h2>
         <p>
-          Great design makes you memorable. We deliver artwork that underscores
-          your brand message and captures potential clients’ attention.
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
         </p>
-      </div>
-      <div>
-        <h2>Photography</h2>
-        <p>
-          Increase your credibility by getting the most stunning, high-quality
-          photos that improve your business image.
-        </p>
-      </div>
-    </section>
+        <a class="section-btn" href="/"> Learn more</a>
+      </section>
 
-    <section>
-      <h2>Client testimonials</h2>
-      <article class="articles">
-        <article class="article">
-          <blockquote>
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
-          </blockquote>
-          <p>Emily R.</p>
-          <p>Marketing Director</p>
-        </article>
+      <section class="container">
+        <div class="graphic">
+          <h2>Graphic design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div class="photography">
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
 
-        <article class="article">
-          <blockquote>
-            Sunnyside’s enthusiasm coupled with their keen interest in our
-            brand’s success made it a satisfying and enjoyable experience.
-          </blockquote>
-          <p>Thomas S.</p>
-          <p>Chief Operating Officer</p>
-        </article>
+      <section class="testimonials-section">
+        <h2>Client testimonials</h2>
+        <article class="article-container">
+          <article class="article">
+            <img class="testimonial-img" src="/images/image-emily.jpg" alt="" />
+            <blockquote>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </blockquote>
+            <p class="testimonial-name">Emily R.</p>
+            <p class="testimonial-position">Marketing Director</p>
+          </article>
 
-        <article class="article">
-          <blockquote>
-            Incredible end result! Our sales increased over 400% when we worked
-            with Sunnyside. Highly recommended!
-          </blockquote>
-          <p>Jennie F.</p>
-          <p>Business Owner</p>
+          <article class="article">
+            <img
+              class="testimonial-img"
+              src="/images/image-thomas.jpg"
+              alt=""
+            />
+            <blockquote>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </blockquote>
+            <p class="testimonial-name">Thomas S.</p>
+            <p class="testimonial-position">Chief Operating Officer</p>
+          </article>
+
+          <article class="article">
+            <img
+              class="testimonial-img"
+              src="/images/image-jennie.jpg"
+              alt=""
+            />
+            <blockquote>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </blockquote>
+            <p class="testimonial-name">Jennie F.</p>
+            <p class="testimonial-position">Business Owner</p>
+          </article>
         </article>
-      </article>
-    </section>
+      </section>
+
+      <section class="decorative-section">
+        <picture>
+          <source
+            media="(min-width: )"
+            srcset="/images/desktop/image-gallery-milkbottles.jpg"
+          />
+          <img src="/images/mobile/image-gallery-milkbottles.jpg" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: )"
+            srcset="/images/desktop/image-gallery-orange.jpg"
+          />
+          <img src="/images/mobile/image-gallery-orange.jpg" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: )"
+            srcset="/images/desktop/image-gallery-cone.jpg"
+          />
+          <img src="/images/mobile/image-gallery-cone.jpg" alt="" />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: )"
+            srcset="/images/desktop/image-gallery-sugar-cubes.jpg"
+          />
+          <img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
+        </picture>
+      </section>
+    </main>
 
     <footer>
       <ul>
